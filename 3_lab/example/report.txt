@@ -1,0 +1,45 @@
+PyBuilder version 0.13.3
+Build started at 2021-11-14 14:15:05
+------------------------------------------------------------
+[INFO]  Building ru.bk252.kkso17 version 1.0.dev0
+[INFO]  Executing build in /Users/xxx/Documents/Учеба/9 семестр/методы верификации/3 лабораторная/auth-service
+[INFO]  Going to execute task publish
+[INFO]  Processing plugin packages 'coverage~=5.2' to be installed with {'upgrade': True}
+[INFO]  Processing plugin packages 'unittest-xml-reporting~=3.0.4' to be installed with {'upgrade': True}
+[INFO]  Creating target 'build' VEnv in '/Users/xxx/Documents/Учеба/9 семестр/методы верификации/3 лабораторная/auth-service/target/venv/build/cpython-3.7.2.final.0'
+[INFO]  Creating target 'test' VEnv in '/Users/xxx/Documents/Учеба/9 семестр/методы верификации/3 лабораторная/auth-service/target/venv/test/cpython-3.7.2.final.0'
+[INFO]  Requested coverage for tasks: pybuilder.plugins.python.unittest_plugin:run_unit_tests
+[INFO]  Running unit tests
+[INFO]  Executing unit tests from Python modules in /Users/xxx/Documents/Учеба/9 семестр/методы верификации/3 лабораторная/auth-service/src/unittest/python
+[INFO]  Executed 9 unit tests
+[INFO]  All unit tests passed.
+[INFO]  Building distribution in /Users/xxx/Documents/Учеба/9 семестр/методы верификации/3 лабораторная/auth-service/target/dist/ru.bk252.kkso17-1.0.dev0
+[INFO]  Copying scripts to /Users/xxx/Documents/Учеба/9 семестр/методы верификации/3 лабораторная/auth-service/target/dist/ru.bk252.kkso17-1.0.dev0/scripts
+[INFO]  Collecting coverage information for 'pybuilder.plugins.python.unittest_plugin:run_unit_tests'
+[WARN]  ut_coverage_branch_threshold_warn is 0 and branch coverage will not be checked
+[WARN]  ut_coverage_branch_partial_threshold_warn is 0 and partial branch coverage will not be checked
+[INFO]  Running unit tests
+[INFO]  Executing unit tests from Python modules in /Users/xxx/Documents/Учеба/9 семестр/методы верификации/3 лабораторная/auth-service/src/unittest/python
+[INFO]  Executed 9 unit tests
+[INFO]  All unit tests passed.
+[WARN]  Test coverage below 70% for utils: 66%
+[WARN]  Test coverage below 70% for dao: 63%
+[INFO]  Overall pybuilder.plugins.python.unittest_plugin.run_unit_tests coverage is 90%
+[INFO]  Overall pybuilder.plugins.python.unittest_plugin.run_unit_tests branch coverage is 100%
+[INFO]  Overall pybuilder.plugins.python.unittest_plugin.run_unit_tests partial branch coverage is 100%
+[WARN]  Test coverage below 70% for utils: 66%
+[WARN]  Test coverage below 70% for dao: 63%
+[INFO]  Overall ru.bk252.kkso17 coverage is 90%
+[INFO]  Overall ru.bk252.kkso17 branch coverage is 100%
+[INFO]  Overall ru.bk252.kkso17 partial branch coverage is 100%
+------------------------------------------------------------
+BUILD SUCCESSFUL
+------------------------------------------------------------
+Build Summary
+             Project: ru.bk252.kkso17
+             Version: 1.0.dev0
+      Base directory: /Users/xxx/Documents/Учеба/9 семестр/методы верификации/3 лабораторная/auth-service
+        Environments: 
+               Tasks: prepare [5970 ms] compile_sources [0 ms] run_unit_tests [444 ms] package [5 ms] run_integration_tests [0 ms] verify [0 ms] coverage [767 ms] publish [0 ms]
+Build finished at 2021-11-14 14:15:14
+Build took 8 seconds (8452 ms)
